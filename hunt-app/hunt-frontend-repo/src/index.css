@@ -1,0 +1,415 @@
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url('./assets/fonts/SF-Pro-Display-Regular.otf') format('otf'),
+    url('./assets/fonts/SF-Pro-Display/WOFF/SF-Pro-Display-Regular.woff.otf')
+      format('otf'),
+    url('./assets/fonts/SF-Pro-Display/EOT/SF-Pro-Display-Regular.eot.otf')
+      format('truetype'),
+    url('./assets/fonts/SF-Pro-Display/TTF/SF-Pro-Display-Regular.fft.otf')
+      format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url('./assets/fonts/SF-Pro-Display-Medium.otf'),
+    url('./assets/fonts/SF-Pro-Display/WOFF/SF-Pro-Display-Medium.woff.otf')
+      format('otf'),
+    url('./assets/fonts/SF-Pro-Display/EOT/SF-Pro-Display-Medium.eot.ttf')
+      format('truetype'),
+    url('./assets/fonts/SF-Pro-Display/TTF/SF-Pro-Display-Medium.ttf')
+      format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url('./assets/fonts/SF-Pro-Display-Bold.otf') format('otf'),
+    url('./assets/fonts/SF-Pro-Display/WOFF/SF-Pro-Display-Bold.woff.otf')
+      format('otf'),
+    url('./assets/fonts/SF-Pro-Display/EOT/SF-Pro-Display-Bold.eot.ttf')
+      format('truetype'),
+    url('./assets/fonts/SF-Pro-Display/TTF/SF-Pro-Display-Bold.ttf')
+      format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url('./assets/fonts/SF-Pro-Display-Bold.otf') format('otf'),
+    url('./assets/fonts/SF-Pro-Display/WOFF/SF-Pro-Display-Bold.woff.otf')
+      format('otf'),
+    url('./assets/fonts/SF-Pro-Display/EOT/SF-Pro-Display-Bold.eot.ttf')
+      format('truetype'),
+    url('./assets/fonts/SF-Pro-Display/TTF/SF-Pro-Display-Bold.ttf')
+      format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SF-Mono-Regular;
+  src: url('./assets/fonts/SF-Mono-Regular.otf');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: SF-Pro-Display;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.am-card .am-card-full {
+  border: 0px !important;
+  border-radius: 0px;
+}
+
+html:not([data-scale]) .am-card:not(.am-card-full)::before {
+  border: 0px !important;
+}
+html:not([data-scale]) .am-card-body::before {
+  background: transparent;
+}
+.am-card-header-content {
+  color: red;
+}
+
+.ant-form-explain,
+.ant-form-item {
+  text-align: left;
+}
+
+.am-navbar-title a,
+.am-navbar-left-icon a {
+  color: white;
+}
+.ant-form {
+  text-align: left;
+}
+html:not([data-scale]) .am-list-item:not(:last-child) .am-list-line::after {
+  background-color: transparent;
+}
+
+.anticon.anticon-minus-circle-o.dynamic-delete-button {
+  position: absolute;
+  right: 10px;
+  top: 1px;
+}
+
+.am-grid.am-grid-square
+  .am-grid-item
+  .am-grid-item-inner-content
+  .am-grid-icon {
+  width: 50px !important ;
+}
+
+.am-card:not(.am-card-full) {
+  border: none;
+}
+
+.ant-menu-root.ant-menu-vertical,
+.ant-menu-root.ant-menu-vertical-left,
+.ant-menu-root.ant-menu-vertical-right,
+.ant-menu-root.ant-menu-inline {
+  border: none;
+}
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+.am-button {
+  height: 44px;
+  line-height: 44px;
+  border-radius: 5px;
+}
+
+.am-grid
+  .am-flexbox
+  .am-flexbox-item
+  .am-grid-item-content
+  .am-grid-item-inner-content.column-num-3
+  .am-grid-text {
+  font-size: 14px;
+}
+
+.headerstyle {
+  margin: 20px 0px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  align-items: center;
+  display: list-item;
+}
+.bodywrap {
+  margin: 10px 30px;
+  height: auto;
+  text-align: center;
+}
+.bodywrap2 {
+  height: auto;
+  text-align: center;
+}
+.grid-list {
+  font-size: 15px;
+  margin: 20px;
+}
+
+.h2-body {
+  font-family: SF-Pro-Display;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 15px 0 9px 15px;
+}
+.not-square-grid .am-grid-icon {
+  width: 40px;
+  height: 60px;
+}
+
+.box-hunts {
+  padding: 0px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #000000;
+}
+.box-users {
+  padding: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #8a8a8e;
+}
+/*Scan*/
+.scan-btn {
+  background: #333335;
+  border-radius: 25px;
+  font-family: SF-Pro-Display;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+.spincoin {
+  width: 100%;
+}
+.spinPoint {
+  margin: 0px auto;
+  width: 27px;
+  position: absolute;
+  top: 205px;
+  z-index: 2;
+  margin-left: 50%;
+  left: -13px;
+}
+.spinBtn {
+  width: 48px;
+  margin: 0 auto;
+  margin-top: 0px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 50%;
+  left: -24px;
+}
+a.am-button.scan-btn,
+a.am-button.scan-btn:hover,
+a.am-button.scan-btn:focus,
+a.am-button.scan-btn:active {
+  color: white;
+}
+.camera-menu {
+  font-size: 20px !important;
+}
+
+.ant-tooltip-inner {
+  background: #000000;
+  font-size: 15px;
+  border-radius: 13px 13px 13px 5px 2px 5px 13px;
+}
+.ant-tooltip-placement-bottom {
+  padding-top: 8px;
+  margin: 40px 0px 0px 0px;
+}
+.ant-tooltip-placement-bottomRight {
+  padding-top: 8px;
+  margin: 40px 60px 0px 0px;
+}
+.ant-tooltip-placement-bottomLeft {
+  padding-top: 8px;
+  margin: 40px 0px 0px 0px;
+  left: 60px !important;
+}
+
+.ant-tooltip-inner {
+  min-width: 260px !important;
+}
+
+/******/
+.sticky-list .sticky-container .am-list-item {
+  padding-left: 0;
+}
+.sticky-list .sticky-container .am-list-line {
+  padding-right: 0;
+}
+.sticky-list .sticky-container .am-list-line .am-list-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.sticky-list .sticky-container .sticky {
+  padding: 7px 15px;
+  transform: none;
+}
+
+.am-grid
+  .am-flexbox
+  .am-flexbox-item.am-grid-item-active
+  .am-grid-item-content {
+  background: white;
+}
+.am-grid .am-flexbox .am-flexbox-item.am-grid-item-active {
+  background: white;
+}
+
+.cambox div {
+  box-shadow: none !important;
+}
+.cambox section {
+  margin-top: 60px;
+  border-radius: 8px;
+}
+
+/*background hunt_coin*/
+.bgcoin {
+  background: url('../src/assets/scan/hunt_coin.png') no-repeat;
+  background-size: cover;
+  width: 136px;
+  height: 82px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: white;
+}
+.bgcoin .cointxt {
+  margin-top: 10px;
+  font-family: SFProDisplay-Medium;
+  font-size: 25px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.img_icon_share {
+  width: 35px;
+  margin-right: 20px;
+}
+
+.am-list-item img {
+  width: 34px;
+  height: 34px;
+}
+.am-list-item .am-list-line .am-list-content {
+  font-weight: bold;
+  font-size: 18px;
+}
+html:not([data-scale]) .am-list-body::before {
+  height: 0px;
+}
+.am-list-item .am-list-line .am-list-brief {
+  white-space: break-spaces;
+}
+
+html:not([data-scale]) .am-list-body::after {
+  background-color: transparent;
+}
+.ant-tooltip-arrow::before {
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  background-color: rgb(0 0 0);
+}
+.ant-tooltip-inner {
+  border-radius: 10px;
+}
+.am-grid .am-flexbox .am-flexbox-item.am-grid-item {
+  position: relative;
+  height: 120px;
+}
+.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.am-list-item {
+  padding: 0px 30px;
+}
+p {
+  font-family: SF-Pro-Display;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  height: 40px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 40px;
+  color: #000000;
+  border-radius: 20px;
+}
+
+.btn-actived {
+  background-color: #333335;
+  color: #ffffff !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: unset;
+}
+a:focus {
+  color: unset;
+}
+
+a:visited {
+  color: unset;
+}

@@ -1,0 +1,80 @@
+@import '~antd-mobile/dist/antd-mobile.css';
+@import '~antd/dist/antd.css';
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  min-height: 600px;
+}
+.flex-container {
+  height: auto;
+  max-width: 375px;
+  min-width: 320px;
+  margin: auto;
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 300px;
+  padding: 0;
+}
+
+.result-example .spe {
+  width: 60px;
+  height: 60px;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+  margin-left: 15px;
+}
+/*
+.am-drawer-content{
+  padding-top:0px!important;
+} */
+
+.preload-container {
+  margin: 30px;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+}
+
+.preload-container .preload-img {
+  width: 100%;
+}
